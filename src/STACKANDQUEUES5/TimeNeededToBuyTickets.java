@@ -1,0 +1,15 @@
+package STACKANDQUEUES5;
+import java.util.*;
+public class TimeNeededToBuyTickets {
+    public static int timeRequiredToBuy(int[] tickets, int k) {
+        int time = 0;
+        for(int i=0 ; i<tickets.length ; i++) {
+            if(i <= k) {
+                time += Math.min(tickets[i], tickets[k]);
+            } else {
+                time += Math.min(tickets[i], tickets[k-1]);
+            }
+        }
+        return time;
+    }
+}
