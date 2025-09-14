@@ -1,5 +1,5 @@
-package LOGICBUILDING150;
-import java.util.*;
+package LOGICBUILDING1;
+
 public class MoveZeros {
     public static void MoveZero(int[] arr) {
         int interPos = 0;

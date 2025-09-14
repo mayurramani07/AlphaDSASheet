@@ -1,5 +1,5 @@
-package LOGICBUILDING150;
-import java.util.*;
+package LOGICBUILDING1;
+
 public class RemoveElement {
     public static int RemovingElement(int[] nums, int val) {
         int i = 0;

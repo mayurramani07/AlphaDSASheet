@@ -1,5 +1,5 @@
-package LOGICBUILDING150;
-import java.util.*;
+package LOGICBUILDING1;
+
 public class RemoveDuplicatesFromSortedArray {
     public static int removeDuplicates(int[] arr) {
         if(arr.length == 0) {

@@ -1,5 +1,5 @@
-package LOGICBUILDING150;
-import java.util.*;
+package LOGICBUILDING1;
+
 public class MergeSortedArray {
     public static void MergeSorted(int[] arr1, int m, int[] arr2, int n) {
         int i = m - 1;

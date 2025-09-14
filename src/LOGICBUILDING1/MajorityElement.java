@@ -1,4 +1,4 @@
-package LOGICBUILDING150;
+package LOGICBUILDING1;
 import java.util.*;
 public class MajorityElement {
     public static int MajorityOfElement(int[] nums) {
