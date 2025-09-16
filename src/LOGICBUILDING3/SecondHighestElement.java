@@ -6,7 +6,7 @@ public class SecondHighestElement {
         int secondMax = 0;
         for(int i=0 ; i<arr.length ; i++) {
             if(arr[i] > maxElement) {
-                secondMax = maxElement
+                secondMax = maxElement;
                 maxElement = arr[i];
             }
         }
