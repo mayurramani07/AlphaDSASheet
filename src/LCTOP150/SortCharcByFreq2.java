@@ -15,10 +15,10 @@ public class SortCharcByFreq2 {
             int freq = map.get(ch);
             if (bucket[freq] == null) {
                 bucket[freq] = new ArrayList<>();
-            } else {
-                bucket[freq].add(ch);
             }
+            bucket[freq].add(ch);
         }
+
         StringBuilder sb = new StringBuilder();
         for (int i = n; i >= 1; i--) {
             if (bucket[i] != null) {
@@ -31,6 +31,7 @@ public class SortCharcByFreq2 {
         return sb.toString();
     }
 }
+
 
 //TIME COMPLEXITY : O(n)
 //SPACE COMPLEXITY : O(n)
