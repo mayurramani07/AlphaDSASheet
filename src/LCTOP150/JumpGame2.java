@@ -1,7 +1,7 @@
 package LCTOP150;
 import java.util.*;
 public class JumpGame2 {
-    public static int minJump(int[] nums) {
+    public static boolean minJump(int[] nums) {
         int n = nums.length;
         int totalJump = 0;
         int finalDestination = n - 1;
