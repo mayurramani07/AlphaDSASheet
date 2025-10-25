@@ -11,7 +11,7 @@ public class HIndex {
             if(nums[i] >= papers) {
                 h = papers;
             } else {
-                break;;
+                break;
             }
         }
         return h;
