@@ -12,7 +12,7 @@ public class CalcMoneyInLeetcodeBank {
 
             if(totalDays == 7) {
                 totalDays = 0;
-                weekStart=+;
+                weekStart++;
             }
         }
         return total;
