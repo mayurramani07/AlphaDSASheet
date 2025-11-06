@@ -14,7 +14,7 @@ public class DungeonGame {
         }
 
         for(int i=m-2 ; i>=0 ; i--) {
-            dp[i][n-1] = Math.max(1, dp[i+1][n-1] - dp[i][n-1])
+            dp[i][n-1] = Math.max(1, dp[i+1][n-1] - dp[i][n-1]);
         }
         for (int i = m - 2; i >= 0; i--) {
             for (int j = n - 2; j >= 0; j--) {
