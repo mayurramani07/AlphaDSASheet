@@ -1,5 +1,5 @@
-package PREFIXSUFFIX;
-import java.util.*;
+package PATTERNPREFIXSUFFIX;
+
 public class MaximumScoreOfSplit {
     public static long maximumScore(int[] nums) {
         int n = nums.length;
