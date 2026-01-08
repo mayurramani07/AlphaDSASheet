@@ -1,7 +1,7 @@
 package PATTERNBFS;
 import java.util.*;
 public class SteppingNum {
-    public static int StepNum(int A, int B){
+    public static int[] StepNum(int A, int B){
         ArrayList<Integer> list = new ArrayList<>();
 
         if(A == 0) {
