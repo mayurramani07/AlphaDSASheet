@@ -1,0 +1,26 @@
+package NEETCODE150;
+import java.util.*;
+public class ValidAnagram2 {
+    public static boolean ValidAnagram(String s, String t) {
+        if(s.length() != t.length()) {
+            return false;
+        }
+        HashMap<Character,Integer> map = new HashMap<>();
+        for(char ch : s.toCharArray()) {
+            map.put(ch, map.getOrDefault(ch, 0) + 1);
+        }
+        for(char c : t.toCharArray()) {
+            if(!map.containsKey(c)) {
+                return false;
+            }
+
+            map.put(c, map.get(c) - 1);
+            if(map.get(c) == 0) {
+                map.remove(c);
+            }
+        }
+        return map.isEmpty();
+    }
+}
+//TIME COMPLEXITY : O(n)
+//SPACE COMPLEXITY : O(n)
