@@ -8,7 +8,7 @@ public class TwoSum {
             int compliment = target - nums[i];
 
             if(map.containsKey(compliment)) {
-                return new int[]{map.get(compliment), i}
+                return new int[]{map.get(compliment), i};
             }
             map.put(nums[i], i);
         }
