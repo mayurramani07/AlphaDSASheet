@@ -22,3 +22,5 @@ public class ProductOfArrayExceptSelf {
         return ans;
     }
 }
+//TIME COMPLEXITY - O(n)
+//SPACE COMPLEXITY - O(n)
