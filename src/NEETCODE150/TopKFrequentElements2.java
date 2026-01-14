@@ -21,3 +21,5 @@ public class TopKFrequentElements2 {
         return result;
     }
 }
+//TIME COMPLEXITY - O(n log k)
+//SPACE COMPLEXITY - O(n)
