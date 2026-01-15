@@ -19,7 +19,7 @@ public class ThreeSumCloset {
                 if(sum == target) {
                     return target;
                 }
-                if(Math.abs(sum - target) < target) {
+                if(Math.abs(sum - target) < diff) {
                     diff = Math.abs(sum - target);
                     closet = sum;
                 }
