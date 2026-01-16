@@ -23,3 +23,5 @@ public class TrappingRainWater {
         return ans;
     }
 }
+//TIME COMPLEXITY : O(n)
+//SPACE COMPLEXITY : O(n)
