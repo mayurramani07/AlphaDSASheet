@@ -23,3 +23,5 @@ public class LongestSubstringWithoutRepeatingChar {
         return maxLength;
     }
 }
+//TIME COMPLEXITY : O(n)
+//SPACR COMPLEXITY : O(n)
