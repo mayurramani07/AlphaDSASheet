@@ -22,3 +22,5 @@ public class LongestRepeatingCharReplacement {
         return ans;
     }
 }
+//TIME COMPLEXITY : O(n)
+//SPACE COMPLEXITY : O(1)
