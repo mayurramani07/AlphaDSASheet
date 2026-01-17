@@ -26,3 +26,5 @@ public class PermutationInString {
         return false;
     }
 }
+//TIME COMPLEXITY : O(n)
+//SPACE COMPLEXITY : o(n)
