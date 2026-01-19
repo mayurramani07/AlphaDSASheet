@@ -30,3 +30,5 @@ public class MinStack {
         return minStack.peek();
     }
 }
+//TIME COMPLEXITY : O(n) per OPERATION : O(1)
+//SPACE COMPLEXITY : (n)
