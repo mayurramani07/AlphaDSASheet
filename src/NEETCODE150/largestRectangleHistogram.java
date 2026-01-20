@@ -20,3 +20,5 @@ public class largestRectangleHistogram {
         return maxArea;
     }
 }
+//TIME COMPLEXITY : O(n)
+//SPACE COMPLEXITY : O(n)
