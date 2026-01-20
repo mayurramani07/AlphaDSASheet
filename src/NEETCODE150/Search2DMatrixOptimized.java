@@ -25,4 +25,4 @@ public class Search2DMatrixOptimized {
     }
 }
 //TIME COMPLEXITY : O(logn)
-//SAPCE COMPLEXITY : O(n)
+//SPACE COMPLEXITY : O(n)
