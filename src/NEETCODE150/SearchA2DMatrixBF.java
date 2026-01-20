@@ -16,4 +16,4 @@ public class SearchA2DMatrixBF {
     }
 }
 //TIME COMPLEXITY : O(m*n)
-//SAPCE COMPLEXITY : O(n)
+//SPACE COMPLEXITY : O(n)
