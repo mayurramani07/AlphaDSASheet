@@ -15,3 +15,5 @@ public class SearchA2DMatrixBF {
         return false;
     }
 }
+//TIME COMPLEXITY : O(m*n)
+//SAPCE COMPLEXITY : O(n)
