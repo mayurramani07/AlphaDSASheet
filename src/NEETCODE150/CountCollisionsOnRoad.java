@@ -21,3 +21,5 @@ public class CountCollisionsOnRoad {
         return collisions;
     }
 }
+//TIME COMPLEXITY : O(n)
+//SPACE COMPLEXITY : O(1)
