@@ -20,3 +20,5 @@ public class BinarySearch {
         return -1;
     }
 }
+//TIME COMPLEXITY : O(log n)
+//SPACE COMPLEXITY : O(1)
