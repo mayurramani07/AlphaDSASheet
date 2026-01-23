@@ -41,3 +41,5 @@ public class ReverseLinkedList {
         return prev;
     }
 }
+//TIME COMPLEXITY : O(n)
+//SPACE COMPLEXITY : O(1)
