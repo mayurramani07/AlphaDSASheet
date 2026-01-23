@@ -47,3 +47,5 @@ public class MergeTwoSortedList {
         return newNode.next;
     }
 }
+//TIME COMPLEXITY : O(n)
+//SPACE COMPLEXITY : O(1)
