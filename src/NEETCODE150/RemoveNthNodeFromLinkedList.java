@@ -48,3 +48,5 @@ public class RemoveNthNodeFromLinkedList {
         return head;
     }
 }
+//TIME COMPLEXITY : O(n)
+//SPACE COMPLEXITY : O(n)
