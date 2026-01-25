@@ -46,3 +46,5 @@ public class AddTwoNumbers {
         return newNode.next;
     }
 }
+//TIME COMPLEXITY : O(n)
+//SPACE COMPLEXITY : O(n)
