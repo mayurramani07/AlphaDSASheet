@@ -16,3 +16,5 @@ public class containsDuplicate1 {
         return -1;
     }
 }
+//TIME COMPLEXITY : O(n)
+//SPACE COMPLEXITY : O(n)
