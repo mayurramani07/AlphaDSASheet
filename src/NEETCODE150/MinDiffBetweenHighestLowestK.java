@@ -12,3 +12,5 @@ public class MinDiffBetweenHighestLowestK {
         return ans;
     }
 }
+//TIME COMPLEXITY : O(nlogn)
+//SPACE COMPLEXITY : O(1)
