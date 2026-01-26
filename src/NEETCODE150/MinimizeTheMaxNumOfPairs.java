@@ -35,3 +35,5 @@ public class MinimizeTheMaxNumOfPairs {
         return count >= p;
     }
 }
+//TIME COMPLEXITY : O(nlogn)
+//SPACE COMPLEXITY : O(1)
