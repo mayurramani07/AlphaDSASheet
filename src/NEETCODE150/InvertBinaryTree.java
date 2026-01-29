@@ -43,3 +43,5 @@ public class InvertBinaryTree {
         return root;
     }
 }
+//TIME COMPLEXITY : O(n)
+//SPACE COMPLEXITY : O(1)
