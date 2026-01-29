@@ -43,4 +43,4 @@ public class MaxDepthOfBinaryTree {
     }
 }
 //TIME COMPLEXITY : O(n)
-//SPACE COMPLEXITY : O(n)
+//SPACE COMPLEXITY : O(1)
