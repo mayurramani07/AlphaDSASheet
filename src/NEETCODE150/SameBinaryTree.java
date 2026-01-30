@@ -42,3 +42,5 @@ public class SameBinaryTree {
         return isSameTree(p.left, q.left) || isSameTree(p.right, q.right);
     }
 }
+//TIME COMPLEXITY : O(n)
+//SPACE COMPLEXITY : O(1)
