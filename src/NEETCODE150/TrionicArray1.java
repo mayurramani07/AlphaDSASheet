@@ -24,3 +24,5 @@ public class TrionicArray1 {
         return i == n-1;
     }
 }
+//TIME COMPLEXITY : O(n^2)
+//SPACE COMPLEXITY : O(n)
