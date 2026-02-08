@@ -23,3 +23,5 @@ public class MinStringBalancedToMakeString {
         return dp[n];
     }
 }
+//TIME COMPLEXITY : O(n)
+//SPACE COMPLEXITY : O(1)
